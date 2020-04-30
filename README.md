@@ -27,9 +27,9 @@ alo we add frequency encoding and phase encoding ,so each spins will have differ
 we have 4 row to fill in K-Space 
 
 
-This video Simulate Without nonuniformty effect
+**This video Simulate Without nonuniformty effect**
 
-![Image](Image/task3.mp4)
+![Video](Image/task3.mp4)
 
 
 # Uniform K-Space 
@@ -40,15 +40,18 @@ which takes the created phantom by the function **shepp_logan()** and calculates
 
 ![Image](Image/phantom.png)
 
-**The Phantom's uniform k-space. **
+
+**The Phantom's uniform k-space.**
 
 ![Image](Image/K_space_uniform.png)
 
-** inverse of uniform k-space. **
+
+**inverse of uniform k-space.**
 
 ![Image](Image/inverse_K_space.png)
 
 # Non-uniform K-Space
+
 The non-uniform k-space is calculated using the function **non_uniform_kspace(phantom)** which takes the created phantom using the function **shepp_logan()** and calculates the non-uniform FFT for it, which simulates the effect of the non-uniform external magnetic field.
 
 **The Phantom's non-uniform k-space.**
